@@ -1,0 +1,84 @@
+#Profile{
+    top: 108px;
+    left: 1216px;
+    width: 367px;
+    height: 736px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 16px;
+    opacity: 1;
+    /* border: 1px solid; */
+}
+#ProfileLogo{
+    border-radius:50%;
+    margin:auto;
+    top: 140px;
+    left: 1299px;
+    width: 200px;
+    height: 200px;
+    background: transparent url('img/Layer 2.png') 0% 0% no-repeat padding-box;
+    opacity: 1
+    
+}
+#ProfileLogo_picture{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 20px;
+}
+#name{
+    margin: auto;
+    padding: 30px;
+    top: 364px;
+    left: 1317px;
+    width: auto;
+    height: 33px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-800) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-33) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: center;
+    font: normal normal 800 34px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+}
+#show_more{
+    top: 775px;
+    left: 1289px;
+    width: 220px;
+    height: 41px;
+    margin-left: 20%;
+    border-radius: 41px;
+    border-style: none;
+    background: #01F0D0;
+
+}
+#show_more:hover{
+    background: var(--activestate_bg_1) 0% 0% no-repeat padding-box;
+    background: #01F0D0 0% 0% no-repeat padding-box;
+    background: #01f0d031;
+    opacity: 1;
+}
+#show_more>button{
+    margin: auto;
+    height: 41px;
+    border: none;
+    background: #01F0D0;
+}
+#Patients_info{
+    display: flex;
+    top: 429px;
+    left: 1236px;
+    height: 42px;
+    padding: 10px;
+    opacity: 1;
+}
+#Logo{
+    top: 561px;
+    left: 1236px;
+    width: 42px;
+    height: 42px;
+    background: transparent url('img/PhoneIcon.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+

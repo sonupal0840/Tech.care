@@ -1,0 +1,18 @@
+*{
+    margin: 5px;
+    padding:0%;
+
+
+}
+body{
+    top: 0px;
+    left: 0px;
+    
+    max-width: 1600px;
+    height: 1195px;
+    background: #F6F7F8 0% 0% no-repeat padding-box;
+    opacity: 1;
+    /* border-style: dashed; */
+    
+}
+

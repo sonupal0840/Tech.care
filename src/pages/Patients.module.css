@@ -1,0 +1,200 @@
+#Patients{
+
+    top: 122px;
+    left: 18px;
+    width: 367px;
+    height: 1054px;
+    /* UI Properties */
+    background: #ffffff var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border-radius: 16px;
+    background:#ffffff;
+    opacity: 1;
+    /* border: 1px solid; */
+    
+}
+
+
+/* Title container */
+#title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Search bar (replaces title content) */
+#searchBar {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+/* Focus effect for search bar */
+#searchBar:focus {
+  border-color: #007BFF;
+  box-shadow: 2px 2px 5px rgba(0, 123, 255, 0.3);
+}
+
+/* Search icon */
+#search_icon {
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  transition: transform 0.2s ease;
+}
+
+/* Search icon hover effect */
+#search_icon:hover {
+  transform: scale(1.1);
+}
+
+
+/* Style for the search icon */
+#search_icon {
+  cursor: pointer; /* Indicate clickable */
+  width: 25px; /* Adjust size of the icon */
+  height: 25px;
+  margin-left: 15px;
+  transition: transform 0.2s ease; /* Smooth hover effect */
+}
+
+/* Search icon hover effect */
+#search_icon:hover {
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+
+  
+  /* Error Message */
+#error_message {
+    color: rgb(255, 0, 0);
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 10px 0;
+    /* border: 1px solid rgb(255, 0, 0); */
+
+  }
+  
+  /* Profile Pictures Container */
+#profile_pictures_container {
+    display: flex;
+    flex-direction: column;
+    height: 960px;
+    position: relative;
+    padding: 10px;
+    margin: auto;
+    justify-content: flex-start;
+    overflow-x:hidden;
+
+}
+
+
+
+/* scroll bar properties________________________________________________________________ */
+#profile_pictures_container::-webkit-scrollbar {
+  top: 215px;
+  left: 375px;
+  width: 6px; /* Width of the scrollbar */
+  height: 920px; /* Height of the horizontal scrollbar (if any) */
+}
+
+#profile_pictures_container::-webkit-scrollbar-track {
+  background: #ffffff; /* Color of the scrollbar track */
+  border-radius: 10px; /* Rounded corners on the track */
+}
+
+#profile_pictures_container::-webkit-scrollbar-thumb {
+  background: #000000bd 0% 0% no-repeat padding-box; /* Color of the scrollbar thumb */
+  border-radius: 3px; /* Rounded corners on the thumb */
+}
+
+
+
+/* For horizontal scrollbar */
+#profile_pictures_container::-webkit-scrollbar-horizontal {
+  height: 8px; /* Adjust the height for the horizontal scrollbar */
+}
+/* ______________________________________________________________________________________________________ */
+  
+  /* Patient Card */
+#patient_card {
+    top: 439px;
+    left: 18px;
+    width: 340px;
+    height: 80px;
+    /* _______________________________ */
+    display: flex;
+    align-items: center;
+    opacity: 1;
+
+}
+#patient_card.highlight {
+  background: var(--activestate_bg_2) 0% 0% no-repeat padding-box;
+  background: #D8FCF7 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+  
+#patient_card:hover {
+    /* transform: scale(1.05); */
+    /* border: .1px solid rgb(202, 205, 27); */
+    background: var(--activestate_bg_2) 0% 0% no-repeat padding-box;
+    background: #D8FCF7 0% 0% no-repeat padding-box;
+    opacity: 1;
+    
+}
+  
+  /* Profile Picture */
+#profile_picture {
+
+    object-fit: cover;
+
+    /* ______________________________________________ */
+    top: 215px;
+    left: 38px;
+    width: 48px;
+    height: 48px;
+    background: transparent url('img/Layer 8.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+#horizontal_dot{
+  margin-left: auto;
+  /* padding: 0px; */
+}
+  
+
+/* Highlight the selected patient card */
+#patient_card.selected {
+  background-color: rgba(255, 72, 0, 0.2); /* Light yellow background */
+  border: 2px solid rgb(255, 81, 0); /* Yellow border */
+  transition: all 0.2s ease-in-out;
+}
+
+
+
+#patient_card {
+  transition: transform 0.2s ease-in-out;
+  display: flex;
+  align-items: center;
+  opacity: 1;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+#patient_card:hover {
+  transform: scale(1.05);
+}
+
+.selected {
+  background-color: orange; /* Highlight color */
+  border: 2px solid yellow;
+}
+

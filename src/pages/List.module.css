@@ -1,0 +1,116 @@
+#List {
+
+  margin-top: 20px;
+  top: 827px;
+  left: 417px;
+  width: 766px;
+  height: 349px;
+  /* UI Properties */
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 16px;
+  opacity: 1;
+  /* border: 1px solid; */
+}
+
+#title {
+  margin: auto;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+
+}
+
+#listbar {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: auto;
+  justify-content: space-between;
+  top: 920px;
+  margin-bottom: 15px;
+  /* color: red; */
+  left: 437px;
+  width: 720px;
+  height: 40px;
+  /* UI Properties */
+  background: #F6F7F8 0% 0% no-repeat padding-box;
+  border-radius: 24px;
+  /* border: 1px red dotted; */
+  opacity: 1;
+}
+
+#liststyle {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 24px;
+  /* background: #ad0e0e; */
+
+  top: 1044px;
+  left: 437px;
+  width: 720px;
+  height: 40px;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 1
+}
+
+#dname1 {
+  width: 200px;
+}
+
+#dname2 {
+  width: 400px;
+  justify-content: flex-start;
+}
+
+#dname3 {
+  width: 100px;
+}
+
+#profile_pictures_container {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  /* border: 1px darkturquoise dotted; */
+  position: relative;
+  padding: 10px;
+  margin: auto;
+  justify-content: flex-start;
+  overflow-x: hidden;
+
+}
+
+/* scroll bar properties________________________________________________________________ */
+#profile_pictures_container::-webkit-scrollbar {
+  top: 215px;
+  left: 375px;
+  width: 6px;
+  /* Width of the scrollbar */
+  height: 941px;
+  /* Height of the horizontal scrollbar (if any) */
+}
+
+#profile_pictures_container::-webkit-scrollbar-track {
+  background: #ffffff;
+  /* Color of the scrollbar track */
+  border-radius: 10px;
+  /* Rounded corners on the track */
+}
+
+#profile_pictures_container::-webkit-scrollbar-thumb {
+  background: #000000bd 0% 0% no-repeat padding-box;
+  /* Color of the scrollbar thumb */
+  border-radius: 3px;
+  /* Rounded corners on the thumb */
+}
+
+
+
+/* For horizontal scrollbar */
+#profile_pictures_container::-webkit-scrollbar-horizontal {
+  height: 8px;
+  /* Adjust the height for the horizontal scrollbar */
+}
+

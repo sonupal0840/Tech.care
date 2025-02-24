@@ -1,0 +1,16 @@
+#Content{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* #Content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    width: 90%;
+      max-width: 663px;
+  } */
+  
+
+  
+

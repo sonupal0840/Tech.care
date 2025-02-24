@@ -1,0 +1,107 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 18px;
+    left: 18px;
+    width: 1564px;
+    /* max-width: 1564px; */
+    max-height: 72px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 70px;
+    opacity: 1;
+    box-sizing: border-box;
+    border:1px rgb(15, 15, 15) solid;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit; /* Ensures text inherits parent color */
+  }
+  
+  #Logo {
+    margin-left: 30px;
+    top: 30px;
+    left: 50px;
+    /* width: 10vw; */
+    /* height: 2vh; */
+    max-width: 211px;
+    max-height: 48px;
+    /* background: transparent url('img/TestLogo.png') 0% 0% no-repeat padding-box; */
+    opacity: 1;
+  }
+  
+  nav > .operations {
+    list-style: none;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    width: 663px;
+    height: 63px;
+    opacity: 1;
+  }
+  
+  nav > .operations li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: hidden;
+    width: 122px;
+    height: 41px;
+    border-radius: 41px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  nav > .operations li:hover {
+    transform: scale(1.05);
+    background: #01F0D0 0% 0% no-repeat padding-box; 
+    opacity: 1;
+  }
+  
+  nav > .operations li.highlight {
+    background: #01F0D0 0% 0% no-repeat padding-box; /* Highlighted background color */
+    opacity: 1;
+  }
+  
+  #icon {
+    margin: auto;
+    width: 15px;
+    height: 14px;
+    opacity: 1;
+    mix-blend-mode: multiply;
+  }
+  
+  nav > .Dr_Details {
+    list-style: none;
+    display: flex;
+    margin-right: 30px;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 10vw; */
+    max-width: 300px;
+    /* overflow-y:hidden ; */
+    height: 44px;
+    opacity: 1;
+  }
+  
+  #pa {
+    color: #707070; /* Fixed color with proper hex value */
+  }
+  
+  #bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 122px;
+    height: 41px;
+  }
+  
+  /* #bg:hover {
+    transform: scale(1.05);
+    background: #01F0D0 0% 0% no-repeat padding-box;
+    border-radius: 41px;
+    opacity: 1;
+  } */
+  
+
